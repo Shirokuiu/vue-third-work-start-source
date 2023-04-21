@@ -15,7 +15,7 @@ import logo from "@/assets/img/logo.svg";
 </script>
 
 <style lang="scss">
-@import "@/assets/scss/app.scss";
+@import "src/assets/scss/style.scss";
 
 #app {
   position: fixed;
