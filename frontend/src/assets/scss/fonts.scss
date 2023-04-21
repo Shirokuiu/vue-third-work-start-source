@@ -4,9 +4,9 @@
   font-style: normal;
 
   src: local("Roboto"),
-    local("Roboto Regular"),
-    url("../fonts/roboto-regular.woff2") format("woff2"),
-    url("../fonts/roboto-regular.woff") format("woff");
+  local("Roboto Regular"),
+  url("@/assets/fonts/roboto-regular.woff2") format("woff2"),
+  url("@/assets/fonts/roboto-regular.woff") format("woff");
   font-display: swap;
 }
 
@@ -16,8 +16,8 @@
   font-style: normal;
 
   src: local("RobotoMedium"),
-    local("Roboto Medium"),
-    url("../fonts/roboto-medium.woff2") format("woff2"),
-    url("../fonts/roboto-medium.woff") format("woff");
+  local("Roboto Medium"),
+  url("@/assets/fonts/roboto-medium.woff2") format("woff2"),
+  url("@/assets/fonts/roboto-medium.woff") format("woff");
   font-display: swap;
 }
