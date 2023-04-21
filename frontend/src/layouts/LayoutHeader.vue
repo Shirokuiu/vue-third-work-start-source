@@ -1,25 +1,46 @@
 <template>
   <header class="header">
+    <!-- Логотип -->
     <div class="header__logo">
-      <a href="index.html" class="logo">
-        <img src="img/logo.svg" alt="VueWork logo" width="147" height="23" />
+      <a href="#" class="logo">
+        <img
+          src="@/assets/img/logo.svg"
+          alt="VueWork logo"
+          width="147"
+          height="23"
+        />
       </a>
     </div>
 
+    <!-- Поиск -->
     <form action="#" class="header__search">
       <input type="search" name="search" required placeholder="Поиск" />
+      <button type="submit">Найти</button>
     </form>
 
+    <!-- Кнопка создания новой задачи -->
     <a href="#" class="header__create-task">Создать карточку</a>
 
+    <!-- Аватар пользователя -->
     <a href="#" class="header__user">
-      <img src="img/user1.jpg" alt="Вика Некрасова" width="40" height="40" />
+      <img
+        src="@/assets/img/admin.jpg"
+        alt="Администратор"
+        width="40"
+        height="40"
+      />
     </a>
 
+    <!-- Меню пользователя -->
     <div class="header__menu">
       <div class="user-menu">
-        <img src="img/user1.jpg" width="56" height="56" alt="Вика Некрасова" />
-        <span>Вика Некрасова</span>
+        <img
+          src="@/assets/img/admin.jpg"
+          width="56"
+          height="56"
+          alt="Администратор"
+        />
+        <span>Администратор</span>
         <a href="#" class="user-menu__link">Мой аккаунт</a>
         <a href="#" class="user-menu__link">Выйти</a>
       </div>

@@ -1,18 +1,6 @@
 <template>
-  <div class="main">
-    <img :src="logo" width="300" height="47" alt="VueWork" />
-    <h1>Добро пожаловать!</h1>
-
-    <p>
-      Это проект Vuework для обучения на профессиональном онлайн‑курсе<br />
-      <b>«Vue.js для опытных разработчиков».</b>
-    </p>
-  </div>
+  <router-view />
 </template>
-
-<script setup>
-import logo from "@/assets/img/logo.svg";
-</script>
 
 <style lang="scss">
 @import "src/assets/scss/style.scss";
@@ -24,34 +12,6 @@ import logo from "@/assets/img/logo.svg";
   background-color: $blue-600;
   top: 0;
   left: 0;
-}
-
-.main {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: $white-900;
-
-  img {
-    display: block;
-    margin: 0 auto;
-  }
-
-  h1 {
-    @include m-s36-h21;
-    text-align: center;
-    margin-bottom: 0;
-  }
-
-  p {
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-  }
-
-  b {
-    font-size: 1.2em;
-  }
+  display: flex;
 }
 </style>

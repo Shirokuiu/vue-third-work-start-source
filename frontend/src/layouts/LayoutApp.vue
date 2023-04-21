@@ -6,5 +6,5 @@
 </template>
 
 <script setup>
-import LayoutHeader from "@/layouts/LayoutHeader";
+import LayoutHeader from "@/layouts/LayoutHeader.vue";
 </script>
