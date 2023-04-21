@@ -1,9 +1,16 @@
 <template>
-  <router-view />
+  <layout-app>
+    <view-home />
+  </layout-app>
 </template>
 
+<script setup>
+import LayoutApp from "@/layouts/LayoutApp.vue";
+import ViewHome from "@/views/ViewHome.vue";
+</script>
+
 <style lang="scss">
-@import "src/assets/scss/app.scss";
+@import "@/assets/scss/app.scss";
 
 #app {
   position: fixed;
